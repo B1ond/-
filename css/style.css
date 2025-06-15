@@ -112,7 +112,7 @@ button {
     text-align: center;
     width: auto;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 26px;
 }
 
 .photo_1 {
@@ -221,9 +221,46 @@ button {
     justify-content: center;
 }
 
+.menu_link_s {
+    line-height: 23px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.link_s {
+    display: flex;
+    flex-direction: column;
+}
+
+.download {
+    margin-bottom: 20px;
+}
+
+.button_s {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.project_text{
+    background-color: #F6F6F6;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 /* project style end */
 
 /* media style start */
+
+@media screen and (max-width: 1400px) {
+    .project_text {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
 
 @media screen and (max-width: 950px) {
     .button_clss_1 {
